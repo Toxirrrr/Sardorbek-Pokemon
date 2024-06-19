@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  user-select: none;
+  background-color: orange;
+}
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.check {
+  padding: 50px 0px;
+}
+.check__wrapper {
+  text-align: center;
+}
+
+.check__search {
+  background-color: #fff;
+  outline: none !important;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: orange;
+  color: white;
+  padding: 8px 15px;
+  font-weight: 600;
+}
+
+.pokemons__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pokemon__item {
+  background-color: white;
+  padding: 0px 0px 20px 0px;
+  border: 2px solid black;
+  margin: 15px 10px;
+  border-radius: 10px;
+}
+.pokemon__img {
+  object-fit: contain;
+  width: 300px;
+  height: 250px;
+  border-bottom: 2px solid black;
+}
+.pokemon__cardtitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+.pokemon__title {
+  font-size: 20px;
+}
+.pokemon__type {
+  padding: 5px 10px;
+}
+.pokemon__candy {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.pokemon__weight {
+  font-size: 18px;
+}
+.pokemon__height {
+  font-size: 18px;
+}
+.cardweight {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+.pokemon__btnfir {
+  background-color: white;
+  margin: 0px 35px 0px 10px;
+  padding: 10px 20px;
+  border: 3px solid skyblue;
+  border-radius: 5px;
+  color: skyblue;
+}
+.pokemon__btnsec {
+  background-color: white;
+  margin: 0px 10px 0px 35px;
+  padding: 10px 20px;
+  border: 3px solid green;
+  border-radius: 5px;
+  color: green;
+}
+
+.ok {
+  font-size: 30px;
+}
+.okk {
+  color: red;
+}
